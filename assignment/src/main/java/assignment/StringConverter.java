@@ -37,8 +37,10 @@ public class StringConverter {
 			{
 				_newAlphabet = _array;
 			}
-			
-			toReturn = (_alphabets[Integer.parseInt(_newAlphabet) - 1]) + toReturn;
+			if(Integer.parseInt(_newAlphabet) > 0)
+			{
+				toReturn = (_alphabets[Integer.parseInt(_newAlphabet) - 1]) + toReturn;
+			}
 			
 		}
 		return toReturn;
