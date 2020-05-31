@@ -13,4 +13,8 @@ public class StringOperations {
         }
         return toReturn;
 	}
+	public String getLower(String word)
+	{
+        return word.toLowerCase();
+	}
 }

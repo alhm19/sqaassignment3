@@ -15,5 +15,12 @@ public class OperationsTest {
 		String expected = "ali";
 		Assert.assertEquals(expected, opr.getReverse(value));
 	}
+	@Test
+	public void lowerTest() {
+		StringOperations opr = new StringOperations();
+		String value = "ALI";
+		String expected = "ali";
+		Assert.assertEquals(expected, opr.getLower(value));
+	}
 
 }
