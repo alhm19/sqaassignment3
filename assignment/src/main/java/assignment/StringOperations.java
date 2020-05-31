@@ -17,4 +17,8 @@ public class StringOperations {
 	{
         return word.toLowerCase();
 	}
+	public String getUpper(String word)
+	{
+        return word.toUpperCase();
+	}
 }
