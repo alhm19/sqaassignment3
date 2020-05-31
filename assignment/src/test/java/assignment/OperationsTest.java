@@ -22,5 +22,12 @@ public class OperationsTest {
 		String expected = "ali";
 		Assert.assertEquals(expected, opr.getLower(value));
 	}
+	@Test
+	public void upperTest() {
+		StringOperations opr = new StringOperations();
+		String value = "ali";
+		String expected = "ALI";
+		Assert.assertEquals(expected, opr.getUpper(value));
+	}
 
 }
